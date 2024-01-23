@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+}
+
+#header nav {
+  background-color: #666666;
+}
+
+#header nav .navbar-brand img {
+  width: max(140px, 10vw);
+}
+
+#header .nav-link {
+  color: #fff;
+}
+#header .nav-link:hover {
+  color: #18bca4;
+}
+#header .nav-link:focus {
+  color: #18bca4;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* BANNER-START */
+#banner {
+  background-image: url("/img/computers.png");
+  width: 100%;
+  min-height: 100dvh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h1 {
+  font-size: min(3.75rem, 10vw);
+  font-weight: 700;
+  text-shadow: 1.6px 1.6px 12.8px black;
+}
+#banner p {
+  font-size: min(20px, 10vw);
+  text-shadow: 1.6px 1.6px 0.5rem black;
+  font-weight: 700;
+}
+#banner .btn {
+  border: 2px solid #fff;
+  align-self: center;
+  border-radius: 0;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  padding: 10px min(40px, 8vw);
+}
+#banner .btn:hover {
+  background-color: white;
+  color: black;
+}
+/* BANNER-END */
+
+/* COURSE-START */
+#course h1 {
+  font-size: min(40px, 8vw);
+}
+#course p {
+  width: min(900px, 90vw);
+}
+
+#course .btn {
+  background-color: #18bca4;
+  outline: none;
+  color: white;
+}
+
+/* COURSE-END */
+/* FEATURE-START */
+#feature {
+  background-color: #e9ecef;
+}
+
+.underline {
+  font-size: min(40px, 10vw);
+}
+.underline::before {
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 4px;
+  color: #18bca4;
+  background-color: #18bca4;
+  transform: translateY(60px);
+}
+
+.feature i {
+  font-size: min(3.75rem, 15vw);
+  color: #18bda5;
+}
+#feature p {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* FEATURE-END */
+
+/* RESOURCE-START */
+#resource {
+  background-image: url("/img/computers.png");
+  width: 100%;
+  min-height: 75dvh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+}
+#resource h4 {
+  text-transform: uppercase;
+  font-size: min(30px, 6vw);
+}
+#resource i {
+  font-size: min(3.75rem, 13vw);
+  color: #18bda5;
+}
+/* RESOURCE-END */
+
+/* CLIENTS-START */
+#clients {
+  background-color: #e9ecef;
+}
+#clients p {
+  font-size: 14px;
+}
+#clients i {
+  color: #18bca4;
+}
+#clients hr {
+  width: 90%;
+  margin: auto;
+  color: #18bca4;
+}
+
+/* CLIENTS-END */
+/* CONTACT-START */
+#contact h1 {
+  font-size: min(30px,8vw);
+}
+#contact .btn {
+  background-color: #18bca4;
+  color: #fff;
+}
+/* CONTACT-END */
+
+
+/* FOOTER */
+#footer {
+  background-color: #e9ecef;
+}
+#footer img {
+  width: min(200px,90%);
+}
+#footer i {
+  color: #18bca4;
+  font-size: 40px;
+}
+/* FOOTER */
